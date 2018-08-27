@@ -1,0 +1,130 @@
+@chaarset "utf-8";
+.container{
+	background:url("../images/xmad_15338647997541_BeNrA.jpg");
+	width:1226px;
+	height:460px;
+	margin:80px auto;/*上下外边距80px，左右外边距相同居中*/
+}
+.menu{
+	width:234px;
+	height:460px;
+	list-style:none;
+	border:1px solid #f00;
+	padding:0px;
+	background-color:rgba(0,0,0,0.6);
+	color:#fff;
+	
+	
+}
+.item{
+	width:992px;
+	height:462px;
+	background-color:#fff;
+	margin-left:234px;
+	margin-top:-42px;
+}
+.menu li{
+	height:42px;
+	border:0px solid #000;
+	padding:0px;
+	text-align:center;
+	line-height:42px;
+}
+.menu li span{
+	font-size:20px;
+	font-weight:bold;
+	margin-left:10px;
+}
+.menu li:hover{
+	background-color:#ff6700;
+}
+.menu li:hover .item-1{
+	display:block;
+	font-size:12px;
+}
+.item-1{
+	display:none;/*表示该元素不显示，并且不在网页上占位*/
+	margin-top:-46px;
+}
+.menu li:hover .item-2{
+	display:block;/*表示该元素显示为一个块级元素，单独占一行*/
+	font-size:12px;
+}
+.item-2{
+	display:none;
+	margin-top:-88px;
+}
+.menu li:hover .item-3{
+	display:block;
+	font-size:12px;
+}
+.item-3{
+	display:none;
+	margin-top:-130px;
+}
+.menu li:hover .item-4{
+	display:block;
+	font-size:12px;
+}
+.item-4{
+	display:none;
+	margin-top:-172px;
+}
+.menu li:hover .item-5{
+	display:block;
+	font-size:12px;
+}
+.item-5{
+	display:none;
+	margin-top:-214px;
+}
+.menu li:hover .item-6{
+	display:block;
+	font-size:12px;
+}
+.item-6{
+	display:none;
+	margin-top:-256px;
+}
+.menu li:hover .item-7{
+	display:block;
+	font-size:12px;
+}
+.item-7{
+	display:none;
+	margin-top:-298px;
+}
+.menu li:hover .item-8{
+	display:block;
+	font-size:12px;
+}
+.item-8{
+	display:none;
+	margin-top:-340px;
+}
+.menu li:hover .item-9{
+	display:block;
+	font-size:12px;
+}
+.item-9{
+	display:none;
+	margin-top:-382px;
+}
+.menu li:hover .item-10{
+	display:block;
+	font-size:12px;
+}
+.item-10{
+	display:none;
+	margin-top:-424px;
+}
+.item-menu{
+	list-style:none;
+	padding:0px;
+}
+.item-menu li{
+	height:120px;
+	width:180px;
+	color:#000;
+	padding:0px;
+}
